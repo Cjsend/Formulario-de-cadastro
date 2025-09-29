@@ -1,0 +1,90 @@
+body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(120deg, #232526, #414345);
+      color: #eee;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background: #2b2d42;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+      padding: 28px 24px 18px 24px;
+      width: 340px;
+      border: 1px solid #8d99ae;
+    }
+            .card h2 {
+            text-align: center;
+            margin-top: 0;
+            color: #edf2f4;
+            letter-spacing: 2px;
+            }
+
+            label {
+            display: block;
+            margin-top: 12px;
+            color: #8d99ae;
+            font-size: 15px;
+            }
+
+            input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 4px;
+            margin-bottom: 2px;
+            border-radius: 8px;
+            border: 1px solid #8d99ae;
+            background: #393e46;
+            color: #edf2f4;
+            font-size: 15px;
+            box-sizing: border-box;
+            }
+
+            input:focus {
+            outline: 2px solid #00b4d8;
+            }
+
+            .actions {
+            margin-top: 18px;
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            }
+
+            .actions input[type="submit"] {
+            background: linear-gradient(90deg, #00b4d8, #0077b6);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s;
+            }
+
+            .actions input[type="submit"]:hover {
+            background: color(#03505f);
+            }
+
+            .actions button {
+            background: #8d99ae;
+            color: #232526;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s;
+            }
+
+            .actions button:hover {
+            background: #edf2f4;
+            color: #2b2d42;
+            }
+
+            #mensagem {
+            text-align: center;
+            font-size: 16px;
+            }
