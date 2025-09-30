@@ -6,7 +6,7 @@ function validarFormulario() {
   let idade = document.getElementById("idade").value.trim();
 
   if (!nome || !email || !senha || !telefone) {
-    mostrarMensagem("Por favor, preencha todos os campos obrigatórios!", true);
+    mostrarMensagem("Por favor, preencha todos os espaços em branco!", true);
     return false;
   }
 
@@ -23,7 +23,7 @@ function validarFormulario() {
 function mostrarMensagem(msg, erro=false) {
   let div = document.getElementById("mensagem");
   div.textContent = msg;
-  div.style.color = erro ? "#ff4444" : "#44ff44";
+  div.style.color = erro ? "rgba(245, 80, 80, 1)" : "#91f891ff";
   div.style.fontWeight = "bold";
   div.style.marginTop = "10px";
 }
