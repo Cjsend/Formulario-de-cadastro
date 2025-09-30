@@ -65,26 +65,27 @@ body {
       transition: background 0.2s;
       }
 
-            .actions input[type="submit"]:hover {
-            background: color(#ccd3d4);
-            }
+      .actions input[type="submit"]:hover {
+      background: color(#ccd3d4);
+      }
 
-            .actions button {
-            background: #f1f2f5;
-            color: #232526;
-            border: none;
-            border-radius: 20px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: background 0.2s;
-            }
+      .actions button {
+      background: #f1f2f5;
+      color: #232526;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.2s;
+      }
 
-            .actions button:hover {
-            background: #edf2f4;
-            color: #2b2d42;
-            }
+      .actions button:hover {
+      background: #edf2f4;
+      color: #2b2d42;
+      }
 
-            #mensagem {
-            text-align: center;
-            font-size: 16px;
-            }
+      #mensagem {
+      text-align: center;
+      font-size: 16px;
+      }
+
